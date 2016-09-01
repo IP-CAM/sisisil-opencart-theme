@@ -1,0 +1,79 @@
+Html, body {
+      Padding: 0;
+      Margin: 0;
+      Height: 100%;
+}
+
+#ss-wrapper {
+	background-color:#fff;
+	width:100%;
+	Min-height:100%;
+    height: auto !important;
+    height:100%;
+    position:relative;
+}
+
+#ss-top-header {
+	width:1020px;
+	height:54px;
+}
+
+#ss-header {
+	width:1020px;
+	height:167px;
+	background:url('../images/bg-header.png') repeat-x;
+	z-index:2;
+	position:relative;
+}
+
+#ss-logo img {
+	z-index:20;
+	position:absolute;
+}
+
+#ss-bottom-header {
+	width:1020px;
+	height:45px;
+	margin-top:-45px;
+	position:relative;
+	z-index:1;
+}
+
+.ss-menu ul {
+	float:left;
+	width:650px;
+	padding:65px 0 0 0;
+	margin:0;
+	margin-top:11px;
+	list-style-type:none;
+}
+
+.ss-menu ul li a {
+	
+	background:url('../images/bg-navigation.png') center top  no-repeat;
+	float:left;
+	width:130px;
+	height:43px;
+	text-align:center;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-decoration:none;
+	color:#5e3e1a;
+	font-size:12px;
+	font-family: "HelveticaNeueLTCom",
+}
+
+.ss-menu ul li a:hover { background:url('../images/bg-navigation-current.png') center top no-repeat; color:#fff; }
+.ss-menu ul li a.current { background:url('../images/bg-navigation-current.png') center top no-repeat; color:#fff;}
+.ss-menu ul li { display:inline; }
+
+
+@font-face {
+	font-family: Pasifico;
+	src: url('../font/Pacifico.ttf') format('opentype');
+}
+
+@font-face {
+	font-family: HelveticaNeueLTCom;
+	src: url('../font/HelveticaNeueLTCom-Th.ttf') format('opentype');
+}

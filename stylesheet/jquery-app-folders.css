@@ -1,0 +1,25 @@
+/* Example CSS - Feel free to change or delete if necessary. */
+.app-folders-container { width: 100%; margin: 0;}
+.jaf-container > div.folder { width: 0px; display: inline-block; text-align: center;}
+
+
+/* jQuery App Folders CSS - this is probably vital. Make additions as you please. */
+.jaf-container {
+	position: relative;
+	padding: 0;
+}
+.jaf-row {
+	zoom: 0;
+	margin-bottom:30px;
+}
+
+/* Interior */
+.folderContent {
+	border-top: 1px solid #fff; 
+	border-bottom: 1px solid #fff;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.clear {
+	clear: both;
+}
